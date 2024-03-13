@@ -42,5 +42,5 @@ spec:
           runAsUser: 1000
           seccompProfile:
             type: RuntimeDefault
-      serviceAccountName: default
+      serviceAccountName: gitops
 
