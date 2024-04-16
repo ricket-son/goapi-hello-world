@@ -8,7 +8,6 @@ metadata:
     kapp.k14s.io/change-rule: upsert after upserting servicebinding.io/ServiceBindings
   labels:
     app.kubernetes.io/part-of: goapi-hello-world
-    apps.tanzu.vmware.com/git-workflow: ""
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/component: run
     carto.run/workload-name: goapi-hello-world
@@ -20,17 +19,17 @@ spec:
         conventions.carto.run/applied-conventions: |-
           spring-boot-convention/auto-configure-actuators-check
           spring-boot-convention/is-native-app-check
+          spring-boot-convention/is-prometheus-enabled-check
           spring-boot-convention/app-live-view-appflavour-check
         developer.conventions/target-containers: workload
       labels:
         app.kubernetes.io/component: run
         app.kubernetes.io/part-of: goapi-hello-world
-        apps.tanzu.vmware.com/git-workflow: ""
         apps.tanzu.vmware.com/workload-type: web
         carto.run/workload-name: goapi-hello-world
     spec:
       containers:
-      - image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-dev-ns-01@sha256:038b5a1d0f1fc429a89e037345451540b503beec3a3bd9fca529c581306cce31
+      - image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-dev-ns-01@sha256:e8f9de858455381d2f15eb5e42c28c3b9ab66cf04d0182e8d6e56bef2c54532a
         name: workload
         resources: {}
         securityContext:
