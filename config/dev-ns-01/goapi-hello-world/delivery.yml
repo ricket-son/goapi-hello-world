@@ -29,7 +29,7 @@ spec:
         carto.run/workload-name: goapi-hello-world
     spec:
       containers:
-      - image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-dev-ns-01@sha256:108277bebae12c0d4c2b5f5ad29623072b31caa4578080793092ec1f2d87162b
+      - image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-dev-ns-01@sha256:96f38557040732d1537e3ef9ecb776d79bdf0fea68d38b78a51b4beb2c0bec0d
         name: workload
         resources: {}
         securityContext:
