@@ -4,6 +4,7 @@ metadata:
   name: goapi-hello-world
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=goapi-hello-world"
+    backstage.io/kubernetes-id: "goapi-hello-world"
     janus-idp.io/tekton: goapi-hello-world
 spec:
   type: service
