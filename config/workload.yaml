@@ -1,14 +1,13 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: goapi
+  name: goapi-hello-world
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: goapi
+    app.kubernetes.io/part-of: goapi-hello-world
 spec:
   source:
     git:
-      url: https://github.com/ricket-son/tap-sample
+      url: https://github.com/ricket-son/goapi-hello-world
       ref:
         branch: main
-    subpath: goapi
