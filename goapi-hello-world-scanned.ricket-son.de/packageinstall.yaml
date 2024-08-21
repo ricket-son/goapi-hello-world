@@ -6,7 +6,7 @@ spec:
   packageRef:
     refName: goapi-hello-world-scanned.ricket-son.de
     versionSelection:
-      constraints: 20240821163548.0.0
+      constraints: 20240821164355.0.0
       prereleases: {}
   serviceAccountName: default
   values:
