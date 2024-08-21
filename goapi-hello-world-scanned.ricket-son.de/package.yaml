@@ -1,17 +1,17 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: goapi-hello-world-scanned.ricket-son.de.20240821174417.0.0
+  name: goapi-hello-world-scanned.ricket-son.de.20240821175217.0.0
 spec:
   refName: goapi-hello-world-scanned.ricket-son.de
-  version: 20240821174417.0.0
+  version: 20240821175217.0.0
   releaseNotes: |
-    Release v20240821174417.0.0 of package goapi-hello-world-scanned.ricket-son.de
+    Release v20240821175217.0.0 of package goapi-hello-world-scanned.ricket-son.de
   template:
     spec:
       fetch:
       - imgpkgBundle:
-          image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-scanned-bundle@sha256:5d37c75c603f664cc287bf6461df5651bd795f1ea476d1ff37e3ec3f42afade4
+          image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-scanned-bundle@sha256:5cdeba559ca5d2f3f59c94d70a563c01a478a5db46ecefb488133697c7499629
       template:
       - ytt:
           paths:
