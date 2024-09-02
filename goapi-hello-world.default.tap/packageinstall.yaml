@@ -6,7 +6,7 @@ spec:
   packageRef:
     refName: goapi-hello-world.default.tap
     versionSelection:
-      constraints: 20240902120654.0.0
+      constraints: 20240902121003.0.0
       prereleases: {}
   serviceAccountName: default
   values:
