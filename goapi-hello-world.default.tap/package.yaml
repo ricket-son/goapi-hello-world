@@ -1,12 +1,12 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: goapi-hello-world.default.tap.20240902114409.0.0
+  name: goapi-hello-world.default.tap.20240902115542.0.0
 spec:
   refName: goapi-hello-world.default.tap
-  version: 20240902114409.0.0
+  version: 20240902115542.0.0
   releaseNotes: |
-    Release v20240902114409.0.0 of package goapi-hello-world.default.tap
+    Release v20240902115542.0.0 of package goapi-hello-world.default.tap
   template:
     spec:
       fetch:
