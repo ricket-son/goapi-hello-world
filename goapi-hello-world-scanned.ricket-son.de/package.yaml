@@ -1,12 +1,12 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: goapi-hello-world-scanned.ricket-son.de.20240902102652.0.0
+  name: goapi-hello-world-scanned.ricket-son.de.20240902103038.0.0
 spec:
   refName: goapi-hello-world-scanned.ricket-son.de
-  version: 20240902102652.0.0
+  version: 20240902103038.0.0
   releaseNotes: |
-    Release v20240902102652.0.0 of package goapi-hello-world-scanned.ricket-son.de
+    Release v20240902103038.0.0 of package goapi-hello-world-scanned.ricket-son.de
   template:
     spec:
       fetch:
