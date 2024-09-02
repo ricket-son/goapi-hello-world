@@ -1,17 +1,17 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: goapi-hello-world.default.tap.20240902105821.0.0
+  name: goapi-hello-world.default.tap.20240902112936.0.0
 spec:
   refName: goapi-hello-world.default.tap
-  version: 20240902105821.0.0
+  version: 20240902112936.0.0
   releaseNotes: |
-    Release v20240902105821.0.0 of package goapi-hello-world.default.tap
+    Release v20240902112936.0.0 of package goapi-hello-world.default.tap
   template:
     spec:
       fetch:
       - imgpkgBundle:
-          image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-bundle@sha256:f6526395c19a6cbd7f6b4d9738b0a52f1fdc0b35ec9b3a95208420a54ac4879d
+          image: harbor.dieunkrauts.de/tap/workloads/goapi-hello-world-bundle@sha256:0ff169fa8591c6c5ea50912705d5a1722427c531d747a26dffbf10e61797f53a
       template:
       - ytt:
           paths:
