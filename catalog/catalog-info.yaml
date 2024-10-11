@@ -3,10 +3,10 @@ kind: Component
 metadata:
   name: goapi-hello-world
   annotations:
-    "backstage.io/kubernetes-label-selector": "supply-chain.apps.tanzu.vmware.com/workload-name=goapi-hello-world-iterate"
+    backstage.io/kubernetes-label-selector: "supply-chain.apps.tanzu.vmware.com/workload-name=goapi-hello-world-iterate"
     backstage.io/kubernetes-id: "goapi-hello-world"
     backstage.io/techdocs-ref: dir:..
-    janus-idp.io/tekton: goapi-hello-world
+    janus-idp.io/tekton: goapi-hello-world-iterate
 spec:
   type: service
   lifecycle: experimental
