@@ -1,7 +1,7 @@
 site_name: Goapi Hello World Sample
 nav:
   - Home: index.md
-  - WeatherForecast: INSTRUCTIONS.md
+  - Instructions: INSTRUCTIONS.md
 repo_url: https://github.com/ricket-son/goapi-hello-world
 plugins:
   - techdocs-core
