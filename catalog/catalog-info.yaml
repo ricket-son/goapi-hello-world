@@ -6,7 +6,7 @@ metadata:
     "backstage.io/kubernetes-label-selector": "supply-chain.apps.tanzu.vmware.com/workload-name=goapi-hello-world-iterate"
     backstage.io/kubernetes-id: "goapi-hello-world"
     backstage.io/techdocs-ref: dir:..
-    janus-idp.io/tekton: goapi-hello-world-iterate
+    janus-idp.io/tekton: goapi-hello-world
 spec:
   type: service
   lifecycle: experimental
