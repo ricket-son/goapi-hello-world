@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: goapi-hello-world
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=goapi-hello-world"
+    "backstage.io/kubernetes-label-selector": "supply-chain.apps.tanzu.vmware.com/workload-name=goapi-hello-world-iterate"
     backstage.io/kubernetes-id: "goapi-hello-world"
     backstage.io/techdocs-ref: dir:..
 spec:
